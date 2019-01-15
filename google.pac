@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-var D="DIRECT;", P = "HTTPS www.canhui.bid:2333;";
+var D="DIRECT;", P = "HTTPS www.sunwo.shop:5540;";
     var H = {
         "googleapis.com":1,
         "googlecode.com":1,
@@ -114,7 +114,7 @@ var D="DIRECT;", P = "HTTPS www.canhui.bid:2333;";
     var r = host.match(/([^.]*\.([a-z,A-Z]*|com\.[a-z]*|co\.[a-z]*))$/)[1];
     if(r && H.hasOwnProperty(r)) {
         if(host == "scholar.google.com" || host == "scholar.google.com.hk" || host=="scholar.googleusercontent.com"){
-            return "HTTPS www.zhifu.stream:443;"
+            return "HTTPS www.wanniba.xyz:443;"
         }else if(host == "mtalk.google.com"  ){
             return D;
         }else{
