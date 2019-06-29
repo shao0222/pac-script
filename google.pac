@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-var D="DIRECT;", P = "HTTPS www.tuibi.shop:9001;";
+var D="DIRECT;", P = "HTTPS www.waimaoke.xyz:8080;";
     var H = {
         "googleapis.com":1,
         "googlecode.com":1,
